@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "nlpdrill2020"
+version = "0.1.0"
+description = ""
+authors = ["TakahiroYoshizawa <takataku.shako.11326@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyterlab = "^4.0.4"
+pandas = "^2.0.3"
+matplotlib = "^3.7.2"
+scikit-learn = "^1.3.0"
+lxml = "^4.9.3"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+notebook = "^7.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
